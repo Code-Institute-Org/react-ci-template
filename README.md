@@ -4,11 +4,9 @@ Welcome,
 
 This is the Code Institute student template for React apps on the Codeanywhere IDE. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 DO NOT use this template if you are using the Gitpod IDE. Use the following command instead:
-```
-npx create-react-app . --template git+https://github.com/Code-Institute-Org/cra-template-moments.git --use-npm
-```
+`npx create-react-app . --template git+https://github.com/Code-Institute-Org/cra-template-moments.git --use-npm`
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **19th April, 2023**
+You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **8th August, 2023**
 
 ## Codeanywhere Reminders
 
