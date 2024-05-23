@@ -28,11 +28,12 @@
           "**/core.python*": true
         },
         "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false,
         "python.terminal.activateEnvironment": false,
         "workbench.iconTheme": "none"
       }
     }
   },
 
-  "remoteUser": "codeany"
+  "remoteUser": "cistudent"
 }

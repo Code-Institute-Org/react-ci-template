@@ -12,12 +12,12 @@ RUN mkdir -p /etc/apt/keyrings && \
     echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list  && \
     apt-get update && apt-get install nodejs -y
 
-ARG USERNAME=codeany
+ARG USERNAME=cistudent
 RUN useradd -ms /bin/bash $USERNAME
 USER $USERNAME
 WORKDIR /home/$USERNAME
 
-ENV PATH=$PATH:"/home/codeany/.local/bin"
+ENV PATH=$PATH:"/home/cistudent/.local/bin"
 
 RUN echo 'alias psql="psql mydb"' >>  ~/.bashrc
 
