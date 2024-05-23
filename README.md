@@ -4,7 +4,17 @@ Welcome,
 
 This is the Code Institute student template for React apps on a cloudbased IDE. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.  
 
-**IMPORTANT:** Do NOT use this template if you are using the **Gitpod IDE**. Use the instructions in **[this repo](https://github.com/Code-Institute-Org/cra-template-moments)** instead.
+# cra-template-moments
+
+### Usage
+
+1. Set up a new repository on Github using this template. 
+2. Open the repo in Gitpod 
+3. In the terminal enter the following command:   
+`npx create-react-app . --template git+https://github.com/Code-Institute-Org/cra-template-moments.git --use-npm`
+4. Enter `y` to confirm installing the create-react-app package
+5. Start the app with:   
+`npm start`
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about this template and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **13th November, 2023**
 
