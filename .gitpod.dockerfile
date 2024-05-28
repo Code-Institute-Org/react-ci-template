@@ -41,7 +41,9 @@ ENV PATH=$PYTHONUSERBASE/bin:$PATH
 # Setup Heroku CLI
 RUN curl https://cli-assets.heroku.com/install.sh | sh
 
-
+RUN wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb && sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2_amd64.deb && \
+    sudo rm -rf /var/cache/apt/* /var/lib/apt/lists/* /tmp/* /home/gitpod/*.deb && \
+    sudo chown -R gitpod:gitpod /home/gitpod/.cache/heroku/
 
 # Add aliases
 
